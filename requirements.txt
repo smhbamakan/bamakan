@@ -1,0 +1,15 @@
+catboost==1.2.10
+interpret==0.7.8
+lightgbm==4.7.0
+matplotlib
+numpy==2.5.3
+pandas==2.3.3
+pytabkit==1.8.0
+scikit-learn==1.9.1
+scipy==1.16.3
+torch==2.15.0
+xgboost==3.4.1
+mord==0.7
+pygam==0.12.0
+ISLP==0.6.0
+pydataset==0.2.0

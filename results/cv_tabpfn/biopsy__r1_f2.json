@@ -1,0 +1,1 @@
+{"acc": 1.0, "bacc": 1.0, "f1_macro": 1.0, "logloss": 0.023878999605578214, "auc": 1.0, "brier": 0.0033126082929073658, "ece": 0.02186148448183963, "pr_auc": 1.0, "fit_s": 0.5013184547424316, "dataset": "biopsy", "task": "binary", "model": "TabPFN", "repeat": 1, "fold": 2, "device": "cuda"}

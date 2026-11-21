@@ -1,0 +1,1 @@
+{"acc": 0.805, "bacc": 0.7892151011704123, "f1_macro": 0.8013424275001011, "logloss": 0.4670737033932092, "mae": 0.275, "qwk": 0.8229715067629895, "rps": 0.048281909931302686, "fit_s": 0.4658956527709961, "dataset": "diamonds_cut", "task": "ordinal", "model": "TabPFN", "repeat": 0, "fold": 2, "device": "cuda"}

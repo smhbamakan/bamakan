@@ -1,0 +1,1 @@
+{"acc": 0.6833333333333333, "bacc": 0.5875, "f1_macro": 0.5868068140630663, "logloss": 0.5805923571218227, "auc": 0.72, "brier": 0.19947312468380127, "ece": 0.0974653186698099, "pr_auc": 0.5674254667447799, "fit_s": 0.492567777633667, "dataset": "heartfail", "task": "binary", "model": "TabPFN", "repeat": 0, "fold": 0, "device": "cuda"}

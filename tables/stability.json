@@ -1,0 +1,47 @@
+{
+ "heartfail": {
+  "age": 1.0,
+  "anaemia": 0.9,
+  "creatinine_phosphokinase": 0.66,
+  "diabetes": 0.54,
+  "ejection_fraction": 1.0,
+  "high_blood_pressure": 0.88,
+  "platelets": 0.82,
+  "serum_creatinine": 1.0,
+  "serum_sodium": 1.0,
+  "sex": 0.5,
+  "smoking": 0.52
+ },
+ "hcv": {
+  "Age": 0.88,
+  "Sex": 0.92,
+  "ALB": 1.0,
+  "ALP": 1.0,
+  "ALT": 1.0,
+  "AST": 1.0,
+  "BIL": 1.0,
+  "CHE": 1.0,
+  "CHOL": 1.0,
+  "CREA": 1.0,
+  "GGT": 1.0,
+  "PROT": 0.54
+ },
+ "cirrhosis": {
+  "Age": 1.0,
+  "Sex": 0.72,
+  "Ascites": 1.0,
+  "Hepatomegaly": 1.0,
+  "Spiders": 1.0,
+  "Bilirubin": 1.0,
+  "Cholesterol": 0.68,
+  "Albumin": 1.0,
+  "Copper": 1.0,
+  "Alk_Phos": 0.98,
+  "SGOT": 0.98,
+  "Tryglicerides": 0.92,
+  "Platelets": 1.0,
+  "Prothrombin": 1.0,
+  "Edema_S": 0.98,
+  "Edema_Y": 1.0
+ }
+}

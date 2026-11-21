@@ -1,0 +1,32 @@
+| Tier | Dataset | Outcome | n | d | Classes | Minority |
+|---|---|---|---|---|---|---|
+| Development | benefits | binary | 4877 | 18 | 2 | 0.316 |
+| Development | biopsy | binary | 683 | 9 | 2 | 0.350 |
+| Development | birthwt | binary | 189 | 9 | 2 | 0.312 |
+| Development | breast_cancer | binary | 569 | 30 | 2 | 0.373 |
+| Development | caravan | binary | 5822 | 85 | 2 | 0.060 |
+| Development | default | binary | 10000 | 3 | 2 | 0.033 |
+| Development | hdma | binary | 2380 | 12 | 2 | 0.120 |
+| Development | mroz | binary | 753 | 14 | 2 | 0.432 |
+| Development | oj | binary | 1070 | 18 | 2 | 0.390 |
+| Development | participation | binary | 872 | 6 | 2 | 0.460 |
+| Development | pima | binary | 532 | 7 | 2 | 0.333 |
+| Development | ripley | binary | 1250 | 2 | 2 | 0.500 |
+| Development | turnout | binary | 2000 | 4 | 2 | 0.254 |
+| Development | chile | nominal | 2431 | 11 | 4 | 0.073 |
+| Development | crabs | nominal | 200 | 5 | 4 | 0.250 |
+| Development | glass | nominal | 214 | 9 | 6 | 0.042 |
+| Development | iris | nominal | 150 | 4 | 3 | 0.333 |
+| Development | wine | nominal | 178 | 13 | 3 | 0.270 |
+| Development | boston_ord | ordinal | 506 | 13 | 4 | 0.243 |
+| Development | computers_ord | ordinal | 6259 | 9 | 4 | 0.247 |
+| Development | cpus_ord | ordinal | 209 | 6 | 4 | 0.244 |
+| Development | diamonds_cut | ordinal | 6000 | 9 | 5 | 0.031 |
+| Monotone | era | ordinal | 1000 | 4 | 9 | 0.018 |
+| Monotone | esl | ordinal | 488 | 4 | 9 | 0.004 |
+| Monotone | lev | ordinal | 1000 | 4 | 5 | 0.027 |
+| Monotone | swd | ordinal | 1000 | 10 | 4 | 0.032 |
+| Fixed test | german | binary | 1000 | 48 | 2 | 0.300 |
+| Clinical | heartfail | binary | 299 | 11 | 2 | 0.321 |
+| Clinical | cirrhosis | ordinal | 276 | 16 | 4 | 0.043 |
+| Clinical | hcv | ordinal | 582 | 12 | 4 | 0.021 |

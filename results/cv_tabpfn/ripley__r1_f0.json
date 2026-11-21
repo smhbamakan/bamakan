@@ -1,0 +1,1 @@
+{"acc": 0.912, "bacc": 0.912, "f1_macro": 0.9119492827868853, "logloss": 0.2063872168423662, "auc": 0.974784, "brier": 0.06370691011563642, "ece": 0.035773626706425934, "pr_auc": 0.9771969311061951, "fit_s": 0.4508838653564453, "dataset": "ripley", "task": "binary", "model": "TabPFN", "repeat": 1, "fold": 0, "device": "cuda"}

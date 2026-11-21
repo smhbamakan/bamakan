@@ -1,0 +1,1 @@
+{"acc": 0.9333333333333333, "bacc": 0.9333333333333332, "f1_macro": 0.9326599326599326, "logloss": 0.22118204747990677, "fit_s": 0.7791886329650879, "dataset": "iris", "task": "nominal", "model": "TabPFN", "repeat": 1, "fold": 0, "device": "cuda"}

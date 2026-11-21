@@ -1,0 +1,1 @@
+{"acc": 0.6522633744855967, "bacc": 0.4965460927674431, "f1_macro": 0.4753755643122841, "logloss": 0.8533470141851458, "fit_s": 0.6014363765716553, "dataset": "chile", "task": "nominal", "model": "TabPFN", "repeat": 1, "fold": 1, "device": "cuda"}

@@ -1,0 +1,1 @@
+{"acc": 0.95, "bacc": 0.95, "f1_macro": 0.949874686716792, "logloss": 0.058859599900140024, "fit_s": 0.44588708877563477, "dataset": "crabs", "task": "nominal", "model": "TabPFN", "repeat": 0, "fold": 2, "device": "cuda"}

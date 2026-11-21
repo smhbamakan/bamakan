@@ -1,0 +1,1 @@
+{"acc": 0.813953488372093, "bacc": 0.8219246031746031, "f1_macro": 0.8313263125763126, "logloss": 0.5195334375022947, "fit_s": 0.4468984603881836, "dataset": "glass", "task": "nominal", "model": "TabPFN", "repeat": 1, "fold": 0, "device": "cuda"}

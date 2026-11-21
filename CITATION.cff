@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "BAMAKAN: A Learnable Border-Approximation Classifier with Monotone, Criterion-Level Explanations"
+authors:
+  - family-names: "Hosseini Bamakan"
+    given-names: "Seyed Mojtaba"
+    orcid: "https://orcid.org/0000-0001-5862-2222"
+    affiliation: "Masaryk University"
+version: "1.1"
+date-released: "2026-11-21"
+license: MIT
+repository-code: "https://github.com/smhbamakan/bamakan"

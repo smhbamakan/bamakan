@@ -1,0 +1,1 @@
+{"acc": 1.0, "bacc": 1.0, "f1_macro": 1.0, "logloss": 0.003871386914061361, "fit_s": 0.44761061668395996, "dataset": "wine", "task": "nominal", "model": "TabPFN", "repeat": 0, "fold": 4, "device": "cuda"}
