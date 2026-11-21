@@ -16,6 +16,29 @@ This repository contains the implementation and everything needed to reproduce t
 
 ## Quick start
 
+**No programming needed:** open the step-by-step notebook in Google Colab, upload a CSV file and run the cells.
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/smhbamakan/bamakan/blob/main/notebooks/BAMAKAN_quickstart.ipynb)
+
+**In Python:**
+
+```bash
+pip install git+https://github.com/smhbamakan/bamakan
+```
+
+```python
+import pandas as pd
+from bamakan import BAMAKAN, prepare, report
+
+df = pd.read_csv("my_data.csv")
+X, y, names, labels = prepare(df, target="outcome")          # text columns are encoded automatically
+model = BAMAKAN(task="binary", compact=True).fit(X, y)      # "binary" | "ordinal" | "nominal"
+importance, borders = report(model, X, y, names)           # readable tables
+card = model.scorecard(names, X=X, y=y)                    # integer if-then point score
+```
+
+**Full interface** (used in the experiments):
+
 ```bash
 pip install -r requirements.txt
 ```
@@ -44,6 +67,7 @@ and more compact; the default configuration pays off on larger datasets.
 | `bamakan/` | `BAMAKANClassifier` (`core.py`), GMLVQ baseline, split-conformal utilities |
 | `tests/` | unit tests: power-mean gradients, border ordering, monotonicity, reflection invariance, border round trip |
 | `experiments/` | data loaders, model configurations and experiment runners |
+| `notebooks/` | step-by-step Colab notebook for non-programmers |
 | `analysis/` | statistics, efficiency measurements, clinical analyses, tables and figures |
 | `data/external/` | datasets not available through Python packages (see `data/README.md`) |
 | `results/` | per-fold results (JSON) of every experiment |
